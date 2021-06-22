@@ -70,6 +70,7 @@
       <workItem from="1624264352605" duration="6660000" />
       <workItem from="1624310440127" duration="693000" />
       <workItem from="1624348195738" duration="6660000" />
+      <workItem from="1624354872349" duration="332000" />
     </task>
     <servers />
   </component>
@@ -86,6 +87,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="375" y="180" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1624264727205">

@@ -31,7 +31,7 @@ body {
   border: 1px darkcyan solid;
   text-align: center;
   transform: rotate(var(--degree));
-  font-size: 30px;
+  font-size: 40px;
 }
 .clock .number .inner {
   transform: rotate(calc(360deg - var(--degree)));
