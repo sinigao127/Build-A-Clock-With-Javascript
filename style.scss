@@ -31,6 +31,7 @@ body {
     border: 1px darkcyan solid;
     text-align: center;
     transform: rotate(var(--degree));
+    font-size: 30px;
     .inner{
       transform: rotate(calc(360deg - var(--degree)));
     }
@@ -69,34 +70,36 @@ body {
     }
   }
   .hand{
-    --degree: 0;
+    --rotation: 30;
     position: absolute;
     left: 50%;
     bottom: 50%;
-    transform: translateX(-50%) rotate(calc(var(--degree)*1deg));
+    transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
     transform-origin: bottom;
     &.hour{
       width: 4%;
       height: 40%;
       background-color: black;
       border: 1px white solid;
-      z-index: 10;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      z-index: 9;
     }
     &.minute{
       width: 2%;
       height: 42%;
       background-color: black;
       border: 1px white solid;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
       z-index: 9;
-      --degree: 30deg;
     }
     &.second{
       width: 1%;
       height: 45%;
       background-color: red;
       border: 1px white solid;
-      z-index: 8;
-      --degree: 60deg;
+      z-index: 10;
     }
   }
   &::after{
